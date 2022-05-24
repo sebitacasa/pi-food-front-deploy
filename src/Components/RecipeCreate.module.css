@@ -1,0 +1,218 @@
+
+
+ .bodyCreate{
+
+    
+  background-image: url('../images/pexels-rene-asmussen-2544829.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  overflow-x: hidden;
+  text-decoration: none;
+
+    
+}
+  
+  .bodyCreate:before {
+    content:'';
+    position: absolute;
+          top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    
+  }  
+  
+
+
+
+
+.container {
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    flex-direction: column;
+    height:100vh;
+    width: auto;
+
+    top: 5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+
+    
+}
+
+.errors{
+    color: rgb(255, 0, 0);
+    background-color: rgb(246, 223, 223);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+   }
+   .form{
+       display: flex;
+       flex-direction: column;
+       background-color:rgba(85, 83, 81, 0.616) ;
+      
+       width: 550px ;
+       
+      
+       
+       padding: 65px;
+       box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.55);    
+       
+   }
+
+   .btn {
+    
+    border-radius: 10px;
+    font-family: italic;
+    color: #000000;
+    
+    background: rgba(190, 190, 172, 0.835);
+    padding: 7px 30px 7px 30px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    
+  }
+  
+  .btn:hover {
+    background: #f2f2b1;
+    background-image: -webkit-linear-gradient(top, #f2f2b1, #f3ff99);
+    background-image: -moz-linear-gradient(top, #f2f2b1, #f3ff99);
+    background-image: -ms-linear-gradient(top, #f2f2b1, #f3ff99);
+    background-image: -o-linear-gradient(top, #f2f2b1, #f3ff99);
+    background-image: linear-gradient(to bottom, #f2f2b1, #f3ff99);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .h1{
+    background-color:rgb(223, 118, 118) ;
+    border-radius: 15px;
+    padding: 7px;
+    box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.55);    
+    font-family: italic;
+  }
+
+
+
+
+ .input{
+    width:380px;
+    height: 25px ;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    
+    color: black;
+ }
+
+ .btnCreate{
+    color: rgb(236, 98, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #0a04047c;
+    
+    text-shadow: #000000ea;
+        text-decoration: none;
+        align-items: center;
+        font-size: 25px;
+        margin-top: 25px;
+        border-style:none;
+        border-radius: 5px;
+        height: 50px;
+        width: 180px;
+        
+        align-self: center;
+        
+        
+ }
+
+ .btnCreate:hover{
+   background:rgba(223, 110, 4, 0.705) ;
+   color: rgb(0, 0, 0);
+ }
+
+ .div{
+   display: flex;
+   align-items: center;
+   align-content: center;
+   margin-top: 15px;
+   color:rgb(0, 0, 0);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+ }
+
+ .p{
+   font-size: 18px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .btn{
+   background: rgba(10, 9, 9, 0.575);
+   margin-bottom: 15px;
+   color: rgb(255, 166, 0);
+   font-size: 27px;
+   font-weight: bolder;
+   
+ }
+
+ .summary{
+  width:340px;
+  height: 100px ;
+  padding-bottom: 60px;
+  align-self: center;
+  
+  border: 2px solid rgb(255, 255, 255);
+  outline: none;
+  
+  color: black;
+  margin-bottom: 10px;
+ }
+ 
+ .dietss{
+   margin-top: 15px;
+   height: 30px;
+   width: 210px;
+   font-size: 15px;
+   align-self: center;
+   margin-bottom: 10px;
+   padding-left: 45px;
+   color: rgb(0, 0, 0);
+   
+ }
+
+ 
+
+
+
+ .label{
+   color: rgba(255, 255, 255, 0.979);
+   font-size: 20px;
+   align-self: center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+ }
+
+ .btn:hover{
+   background: rgba(255, 158, 1, 0.383);
+   color: #000000;
+ }
+
+
+ .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}

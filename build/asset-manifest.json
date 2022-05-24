@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef0eee7b.chunk.css",
+    "main.js": "/static/js/main.d3517518.chunk.js",
+    "main.js.map": "/static/js/main.d3517518.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3fc270cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3fc270cb.js.map",
+    "static/js/2.a2d51ceb.chunk.js": "/static/js/2.a2d51ceb.chunk.js",
+    "static/js/2.a2d51ceb.chunk.js.map": "/static/js/2.a2d51ceb.chunk.js.map",
+    "static/js/3.fb8dccaf.chunk.js": "/static/js/3.fb8dccaf.chunk.js",
+    "static/js/3.fb8dccaf.chunk.js.map": "/static/js/3.fb8dccaf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ef0eee7b.chunk.css.map": "/static/css/main.ef0eee7b.chunk.css.map",
+    "static/js/2.a2d51ceb.chunk.js.LICENSE.txt": "/static/js/2.a2d51ceb.chunk.js.LICENSE.txt",
+    "static/media/LandingPage.module.css": "/static/media/img.a082a68e.jpg",
+    "static/media/RecipeDetail.module.css": "/static/media/salad-gc7f87fae6_1920.420a84f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fc270cb.js",
+    "static/js/2.a2d51ceb.chunk.js",
+    "static/css/main.ef0eee7b.chunk.css",
+    "static/js/main.d3517518.chunk.js"
+  ]
+}

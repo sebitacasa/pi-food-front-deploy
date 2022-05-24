@@ -1,0 +1,25 @@
+.page{
+    cursor: pointer;
+}
+
+.paginado{
+    
+    background: hsla(0, 0%, 87%, 0.616);
+    color: #050200;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    position:relative;
+    padding-bottom: 2px;
+    
+    margin-top: 15px;
+    
+   
+    
+    
+    
+}
+
+.paginado:hover{
+    background-color:rgba(245, 123, 9, 0.418)
+}

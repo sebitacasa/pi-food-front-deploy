@@ -1,0 +1,116 @@
+
+
+.bodyLanging{
+  background: rgb(0, 0, 0);
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100vh;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ 
+
+}
+
+.bodyLanging::before{
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.lnd{
+
+display: flex;
+width: 100%;
+height: auto;
+
+    
+}
+
+
+
+.title{
+    
+    color: rgb(75, 74, 74);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(240, 119, 6),
+        0 0 82px rgb(240, 119, 6),
+        0 0 92px rgb(240, 119, 6),
+        0 0 102px rgb(240, 119, 6),
+        0 0 151px rgb(240, 119, 6);
+        text-decoration: none;
+        align-content: center;
+        margin: 0% 45% 0% 45%;
+        margin-top: 250px;
+        font-size: 65px;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        width:auto;
+        height: auto;
+ 
+}
+
+.btn {
+    cursor: pointer;
+    
+   
+   
+  
+    background: rgba(110, 110, 110, 0.26);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+    color: rgba(245, 119, 2, 0.911);
+    font-size: 30px;
+    padding: 9px 23px 9px 23px;
+    text-decoration: none;
+    position:absolute;
+    margin-top: 8%;
+    margin-left: 47%;
+    margin-top: 28%;    
+    width: auto;
+    height: auto;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    background: rgba(224, 95, 8, 0.603);
+    color:rgb(0, 0, 0)
+  }
+ 
+
+@media only screen and (max-width: 900px){
+ 
+  body{
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    height: 300px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+  
+  }
+  
+ 
+}

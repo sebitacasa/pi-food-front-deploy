@@ -1,0 +1,106 @@
+.body-create{
+
+  
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+    text-decoration: none;
+    background-image: url('../images/pexels-rene-asmussen-2544829.jpg');
+   
+    
+}
+  
+  .body-create:before {
+    content:'';
+    position: absolute;
+          top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+
+.container{
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-bottom: 495px;
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-left: 5%;
+    width: 950px;
+    height: 100%;
+  
+}
+
+.card-img{
+    
+    width: 350px;
+    height: 550;
+}
+
+.title-text{
+ text-decoration: none;
+}
+
+.steps{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.steps-label{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: rgba(255, 102, 0, 0.815);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.summary-label{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: rgba(255, 102, 0, 0.815);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.label-diet{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: rgba(255, 102, 0, 0.815);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.diet{
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.card-text-summary{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+
+}
+
+.title{
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgba(255, 102, 0, 0.815);
+    padding-bottom: 10px;
+}
+
+.spinner{
+    
+    height: 100vh;
+}

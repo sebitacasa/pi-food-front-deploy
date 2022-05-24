@@ -1,0 +1,220 @@
+ .bodyHome {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: auto;
+  height: 100vh;
+  overflow-x: hidden;
+
+  
+ 
+  
+}
+
+.bodyHome:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+ 
+
+  background-color: rgba(0, 0, 0, 0.4);
+} 
+
+ .container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  position: relative;
+
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 109px;
+} 
+
+.Navbar-custom {
+  background-color: lightgreen;
+  text-decoration: none;
+}
+
+.select {
+  background: rgba(247, 247, 246, 0.894);
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  padding: 9px;
+  color: rgba(194, 133, 20, 0.89);
+  box-shadow: #000000;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: italic;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.cards {
+  display: grid;
+
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 350px);
+  padding: 45px;
+  gap: 35px;
+  margin-top: 35px;
+  text-decoration: none;
+}
+
+.paginado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.filterC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.refresh {
+  font-family: italic;
+  color: rgba(194, 133, 20, 0.89);
+
+  background: rgb(253, 253, 253);
+  padding: 3px 13px 3px 13px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-decoration: none;
+}
+.input {
+  background-color: #fbfbfb;
+  font-size: 13px;
+}
+.create {
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(194, 133, 20, 0.89);
+  border-radius: 10px;
+
+  background: rgb(255, 255, 255);
+  padding: 5px 13px 5px 13px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.search {
+  display: flex;
+  justify-content: start;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.divSea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+  align-content: flex-start;
+  align-self: start;
+  gap: 120px;
+}
+
+.searchDiv {
+  margin-right: 250px;
+  padding-right: 500px;
+}
+
+.value {
+  cursor: pointer;
+}
+
+.btnsearch {
+  font-family: italic;
+  color: wheat;
+  font-size: 13px;
+  background: rgb(224, 157, 157);
+  padding: 3px 13px 3px 13px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.btnsearch:hover {
+  background: antiquewhite;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+}
+.create:hover {
+  background: antiquewhite;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+}
+.refresh:hover {
+  background: antiquewhite;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+}
+
+.error {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(235, 125, 0);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  
+}
+
+.alert {
+  height: 100vh;
+  width: auto;
+}
+
+.alertText {
+  height: 35%;
+  width: 500px;
+  background: rgba(10, 4, 4, 0.74);
+  margin-left: 50%;
+  border-style: none;
+}
+.text404 {
+  color: rgba(255, 123, 0, 0.863);
+  padding-top: 35px;
+  padding-left: 25px;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.boxContainer{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position:relative;
+}
